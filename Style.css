@@ -58,8 +58,8 @@ padding-right: 40px;
 aside
 {
     
-    width: 200px;
-    height: 419px;
+    width: 440px;
+    height: 550px;
     margin: 0 10px 10px 0;
     float: left;
     background-color: black;
@@ -73,8 +73,8 @@ aside
 
 section
 {
-    width: 690px;
-    height: 400px;
+    width: 450px;
+    height: 530px;
     margin: 0 0 10px 0;
     padding: 10px;
     float: right;
@@ -89,8 +89,8 @@ section
 
 #section1
 {
-    width: 800px;
-    height: 400px;
+    width: 920px;
+    height: 500px;
     margin: 0 0 10px 0;
     padding: 10px;
     float: right;
@@ -115,7 +115,47 @@ footer
     border: solid,2px,whitesmoke;
     border-style:solid;
 }
+a:link{
+    color: aliceblue;
+}
 
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: lawngreen;
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+}
+
+nav li
+{
+    display: inline;
+    padding-left: 30px;
+    line-height: 1em;
+    list-style-type: none;
+}
+nav a:link
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav a:visited
+{
+    color: #fdfdfd;
+}
+nav a:hover
+{
+    color: rgb(251, 255, 0);
+    text-decoration: underline;
+}
+nav a:active
+{
+    color: rgb(0, 255, 200);
+}
 
 
 
